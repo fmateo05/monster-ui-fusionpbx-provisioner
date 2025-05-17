@@ -1,0 +1,8 @@
+{
+  "provisioner": {
+    "description": "This app displays which credentials will be used for phone provisioner on this account",
+    "noInfo": "There is no information to retrieve on this account",
+    "displayCredentials": "Click to Display URL and Credentials",
+    "welcome": "Welcome to FusionPBX's backend provisioner App"
+  }
+}

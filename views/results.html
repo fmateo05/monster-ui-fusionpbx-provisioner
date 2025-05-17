@@ -1,0 +1,13 @@
+ <div class="results-wrapper">
+    <ul>
+  {{#each provision}} 
+          <div>
+          {{this}}
+          </div>
+   
+      {{else}}
+    
+      <li>{{ @root.i18n.skeleton.noInfo }}</li>
+    {{/each}}
+    </ul>
+  </div>
