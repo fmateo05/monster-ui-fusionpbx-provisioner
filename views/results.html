@@ -1,13 +1,16 @@
  <div class="results-wrapper">
     <ul>
-  {{#each provision}} 
-          <div>
-          {{this}}
-          </div>
-   
-      {{else}}
-    
-      <li>{{ @root.i18n.skeleton.noInfo }}</li>
-    {{/each}}
+     <div>
+	<div>
+ 	{{ i18n.provisioner.username }} <span><b>{{provision.data.http_auth_username }}</b></span>
+	</div>
+	<div>
+ 	{{ i18n.provisioner.password }} <span><b>{{provision.data.http_auth_password }}</b></span>
+	</div>
+	<div>
+ 	{{ i18n.provisioner.url }} <span><b>{{provision.data.grandstream_config_server_path }}</b></span>
+	</div>
+     </div>
+     <div><h3>{{ i18n.provisioner.noInfo }}</h3></div>
     </ul>
   </div>
