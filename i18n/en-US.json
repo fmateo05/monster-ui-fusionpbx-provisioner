@@ -1,8 +1,11 @@
 {
   "provisioner": {
     "description": "This app displays which credentials will be used for phone provisioner on this account",
-    "noInfo": "There is no information to retrieve on this account",
+    "noInfo": "Please input this info on the device or router properties, to be configured.",
     "displayCredentials": "Click to Display URL and Credentials",
-    "welcome": "Welcome to FusionPBX's backend provisioner App"
+    "welcome": "Welcome to FusionPBX's backend provisioner App",
+    "username": "Username :",
+    "password": "Password :",
+    "url": "Provisioner URL :"
   }
 }
