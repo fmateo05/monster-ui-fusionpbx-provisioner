@@ -1,4 +1,4 @@
- <div class="results-wrapper">
+<div class="results-wrapper">
     <ul>
      <div>
 	<div>
@@ -8,7 +8,10 @@
  	{{ i18n.provisioner.password }} <span><b>{{provision.data.http_auth_password }}</b></span>
 	</div>
 	<div>
- 	{{ i18n.provisioner.url }} <span><b>{{provision.data.grandstream_config_server_path }}</b></span>
+ 	{{ i18n.provisioner.url }} <span><b>https://{{provision.data.grandstream_config_server_path }}/app/provision/</b></span>
+	</div>
+	<div>
+ 	Provisioner Full URL : <span><b>https://{{provision.data.http_auth_username }}:{{provision.data.http_auth_password }}@{{provision.data.grandstream_config_server_path }}/app/provision/</b></span>
 	</div>
      </div>
      <div><h3>{{ i18n.provisioner.noInfo }}</h3></div>
